@@ -1,0 +1,123 @@
+.header{
+    color:white;  
+}
+
+.topRow{
+   display: inline-block;
+   width: 100%;
+   font-size: 25px;
+}
+
+.topRowText{
+    display: inline-block;
+    text-align: center;
+    font-family:'Arial', Times, serif;
+    font-size:larger;
+    padding-top: 20px;
+    width: 100%;
+    font-weight: 600;
+}
+
+.productText{
+    font-family:'Arial', Times, serif;
+    font-size:20px;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.topRowButton{
+    float: right;
+    margin-top: -40px;
+    font-size: 50px!important;
+}
+
+.contact-btn{
+    height: 30px;
+    padding-top: 6px !important;
+    font-size: 14px;
+}
+
+
+.nav-link{
+    margin-right:30px;
+    border-radius: 10px;
+    border: none;      
+    padding: 5px 15px 5px 15px;
+    font-family:'Arial', Times, serif;
+    font-weight: 600; 
+}
+
+.signupRow{
+    display: inline-block;
+    width: 100%;
+}
+
+.inputSignupRow{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+#txtEmail{
+    height: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family:'Arial', Times, serif;
+    font-weight: 600; 
+}
+
+.btnSignupRow{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.btnSignup{
+    height: 30px;
+    background-color: #00ab2e;
+    color: white;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.p-1 {
+    background-image: url('img/background.png');
+    background-repeat: no-repeat;
+    
+    background-size: 100% 50%;
+    height: 600px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .topRowText{
+        display: inline-flex;
+        float: left;
+        margin-left: 20px;
+    }
+
+    .productText{
+        margin-left: 20px;
+    }
+  
+    .inputSignupRow{
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .topRowButton{
+        float: left;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .productText{
+        font-size: 12px;
+    }
+
+    .btnSignup{
+        margin-top: 10px;
+    }
+}
+
